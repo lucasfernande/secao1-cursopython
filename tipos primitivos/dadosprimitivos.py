@@ -1,0 +1,5 @@
+print(type('Lucas')) # tipo str (string)
+print(15, type(15)) # tipo int (inteiro)
+print(41.15, type(41.15)) # tipo float (ponto flutuante)
+print(10 == 10, type(10 == 10)) # tipo bool (boolean)
+print('b' == 'B', type('b' == 'B'))
