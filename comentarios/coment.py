@@ -1,0 +1,7 @@
+print('linha 1')
+print('linha 2')
+print('linha 3')
+# comentarios (informação sobre a linha, por exemplo)
+print('linha 4')
+# print('linha 5')
+print('linha 6')
