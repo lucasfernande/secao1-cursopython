@@ -24,3 +24,15 @@ print()
 
 l4 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 print(f'Maior: {max(l4)}, Menor: {min(l4)}') # encontrando o maior e o menor valor da lista
+
+soma = 0
+for valor in l4:
+    soma += valor # somando todos os valores da lista 4
+
+print(f'Soma: {soma}')
+print()
+
+l5 = ['Lucas', 18, 1.80, True]
+
+for elemento in l5:
+    print(f'{elemento}, {type(elemento)}') # encontrando o tipo de cada elemento na lista
