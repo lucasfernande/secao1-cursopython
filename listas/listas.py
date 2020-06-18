@@ -20,3 +20,7 @@ print(l2)
 l3 = [1, 2, 3, 4, 5, 6]
 del(l3[3:5]) # removendo elementos da lista pelo indice
 print(l3)
+print()
+
+l4 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+print(f'Maior: {max(l4)}, Menor: {min(l4)}') # encontrando o maior e o menor valor da lista
