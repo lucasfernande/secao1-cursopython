@@ -1,5 +1,8 @@
-user_logged = False
+idade = input('Qual a sua idade?: ')
+idade = int(idade)
 
-msg = 'Usuário logado.' if user_logged else 'Você deve fazer login'
+check = (idade >= 18)
+
+msg = 'Pode acessar' if check else 'Não pode acessar'
 
 print(msg)
